@@ -49,7 +49,7 @@ public class UserController {
 	// this endpoint will be triggered if url looks like this : localhost:8080/users METHOD : DELETE
 	@DeleteMapping(path="/delete")
 	public String deleteUser() {
-		return "deleted";
+		return "deletedd";
 	}
 	@DeleteMapping(path="/deletenocontent")
 	public ResponseEntity<Void> deleteUserNoContent(){
