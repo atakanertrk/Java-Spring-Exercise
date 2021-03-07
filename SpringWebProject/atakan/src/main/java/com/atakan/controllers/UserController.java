@@ -18,6 +18,7 @@ import com.sun.el.stream.Optional;
 @RestController
 @RequestMapping("/users")
 public class UserController {
+	
 	@GetMapping(path="getuser/asd{userId}")
 	public String getUser(@PathVariable int userId) {
 		return "get user was called by id of : " + userId;
@@ -46,7 +47,7 @@ public class UserController {
 		String responseText = "update called by id : " + id;
 		return new ResponseEntity<String>(responseText,HttpStatus.OK);
 	}
-	// this endpoint will be triggered if url looks like this : localhost:8080/users METHOD : DELETE
+
 	@DeleteMapping(path="/delete")
 	public String deleteUser() {
 		return "deletedd";

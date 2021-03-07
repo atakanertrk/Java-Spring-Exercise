@@ -3,20 +3,20 @@ package com.atakan.models;
 import java.util.Date;
 
 public class ErrorMessage {
-	private Date timestamp;
+	private String time;
 	private String message;
 	
-	public ErrorMessage(Date timestamp, String message) {
-		this.timestamp = timestamp;
+	public ErrorMessage(String time, String message) {
+		this.time = time;
 		this.message = message;
 	}
 	public ErrorMessage() {
 	}
-	public Date getTimestamp() {
-		return timestamp;
+	public String getTimestamp() {
+		return time;
 	}
-	public void setTimestamp(Date timestamp) {
-		this.timestamp = timestamp;
+	public void setTimestamp(String time) {
+		this.time = time;
 	}
 	public String getMessage() {
 		return message;
