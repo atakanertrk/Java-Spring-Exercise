@@ -10,8 +10,8 @@ public class UserServiceSecondImpl implements UserService {
 	@Override
 	public UserInfoModel createUser(String name, String surname) {
 		UserInfoModel user = new UserInfoModel();
-		user.name = name+"second";
-		user.surname = surname+"second";
+		user.name = name+" 2";
+		user.surname = surname+" 2";
 		return user;
 	}
 
