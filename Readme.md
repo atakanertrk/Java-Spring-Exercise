@@ -1,1 +1,2 @@
-
+# Blended code works, like soup...
+<img src="https://thewoksoflife.com/wp-content/uploads/2016/12/tomato-egg-drop-noodle-soup-4-1-500x375.jpg" />
